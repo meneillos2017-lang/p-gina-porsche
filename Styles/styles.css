@@ -623,6 +623,7 @@ button {
     /*FOOTER*/
 
     .footer{
+        width: 100%;
         gap: 20px;
     }
 
