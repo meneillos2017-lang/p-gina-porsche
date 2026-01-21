@@ -538,6 +538,10 @@ button {
     .header{
         padding-left: 10px;
         padding-right: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /*HERO*/
