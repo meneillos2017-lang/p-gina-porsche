@@ -3,7 +3,6 @@ const tycan = {
         "lateral": "Assets/cars/models/taycan-berlina.avif",
         "precio": "Desde EUR 106.252,00 PVP Recomendado1",
         "consumo": "Consumo eléctrico combinado - WLTP* (intervalo modelo): 19,4 – 16,7 kWh/100 km, Consumo eléctricobajo - WLTP* (intervalo modelo): 16,6 – 14,4 kWh/100 km, Consumo eléctricomedio - WLTP* (intervalo modelo): 16,6 – 13,8 kWh/100 km, Consumo eléctrico alto - WLTP* (intervalo modelo): 17,6 – 14,2 kWh/100 km, Consumo eléctrico muy alto - WLTP* (intervalo modelo): 22,8 – 18,2 kWh/100 km, Autonomía eléctrica en ciudad - WLTP* (intervalo modelo): 593 – 824 km, Autonomía eléctrica combinado - WLTP* (intervalo modelo): 521 – 680 km, Emisiones CO2 combinado (Gasolina y BEV)/ combinado ponderado (PHEV) - WLTP* (intervalo modelo): 0 – 0 g/km",
-        "pvp": " ",
         "aceleración": "4,8 s",
         "potencia": "300 kw / 408 cv",
         "velocidad": "230 km/h",
@@ -37,7 +36,6 @@ function enlaceModelo (nombre){
             document.getElementById("tycan__img").src = tycan.berlina.lateral;
             document.getElementById("precio").textContent = tycan.berlina.precio;
             document.getElementById("consumo").textContent = tycan.berlina.consumo;
-            document.getElementById("pvp").textContent = tycan.berlina.pvp;
             document.getElementById("segundos").textContent = tycan.berlina.aceleración;
             document.getElementById("kw").textContent = tycan.berlina.potencia;
             document.getElementById("km").textContent = tycan.berlina.velocidad;
