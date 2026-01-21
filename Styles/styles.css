@@ -568,6 +568,7 @@ button {
 
     .botones{
         flex-direction: column;
+        width: 100%;
     }
 
     .botones__modelo{
@@ -591,6 +592,7 @@ button {
     }
 
     .informacion__detalle{
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
